@@ -1,5 +1,5 @@
 {
-  "name": "hacker-news-clone",
+  "name": "tech-blog",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -23,5 +23,5 @@
   "devDependencies": {
     "jest": "^25.1.0"
   },
-  "description": ""
+  "description": "tech blog with authentication and comments"
 }
