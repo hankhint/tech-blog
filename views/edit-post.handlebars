@@ -6,12 +6,12 @@
   <form class="edit-post-form">
     <div>
       <input name="post-title" type="text" value="{{post.title}}" />
-      <span>({{post.content}})</span>
     </div>
     <div>
-      {{post.vote_count}} {{ "point" post.vote_count}} by you on {{format_date post.created_at}}
-      |
-      <a href="/post/{{post.id}}">{{post.comments.length}} {{ "comment" post.comments.length}}</a>
+      |<label for="post-content">Content</label>
+      <textarea class="entry-field" id="post-content" name="post-content">
+        {{post.content}}
+      </textarea>
     </div>
     <button type="submit">Save post</button>
     <button type="button" class="delete-post-btn">Delete post</button>
