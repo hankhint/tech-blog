@@ -46,7 +46,7 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false
     },
-    post: {
+    content: {
       type: DataTypes.STRING,
       allowNull: false
       /* commented this out to turn this into a blog
