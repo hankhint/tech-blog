@@ -2,6 +2,10 @@
   "name": "tech-blog",
   "version": "1.0.0",
   "main": "server.js",
+  "engines" : { 
+    "npm" : ">=8.0.0",
+    "node" : ">=16.0.0"
+  },
   "scripts": {
     "test": "jest",
     "seeds": "node seeds/index.js",
