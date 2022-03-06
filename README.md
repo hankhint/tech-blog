@@ -26,7 +26,7 @@ The application uses the MIT license.
 ![Badge](https://img.shields.io/badge/License-MIT-blue.svg)
   
 ## Deployed
-ok
+https://fast-fortress-47080.herokuapp.com/
 
 ## Questions
 Send questions or comments to hankhint@gmail.com and find me on github https://github.com/hankhint
